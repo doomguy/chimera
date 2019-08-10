@@ -44,7 +44,7 @@ Hello, FooBar!
 This is Python!
 ```
 
-Please note: Some other examples for other languages need some more work to run. See the README.md in the respective example folder.
+Please note: Examples for other languages may need some more work to run. See the README.md in the respective example folder.
 
 ### Usage
 For new scripts follow these simple steps:
