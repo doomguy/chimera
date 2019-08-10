@@ -1,0 +1,14 @@
+#!/usr/bin/php
+<?php
+
+$request = json_decode(getenv('REQUEST'), true);
+
+if (isset($request['params']['name'])) {
+  $name = $request['params']['name'];
+} else {
+  $name = "World";
+}
+
+print("Hello, ".$name."!\nThis is PHP!\n");
+
+?>

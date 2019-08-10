@@ -1,0 +1,18 @@
+#!/usr/bin/lua5.3
+
+-- load libraries
+-- https://github.com/rxi/json.lua
+json = require "lib/json"
+
+-- read environment variable REQUEST
+request = json.decode(os.getenv("REQUEST"))
+
+-- set name
+if (request['params']['name'] == nil) then
+  name = "World"
+else
+  name = request['params']['name'] 
+end
+
+-- return
+print("Hello, " .. name .. "!\nThis is Lua!")

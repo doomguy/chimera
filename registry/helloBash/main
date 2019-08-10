@@ -1,0 +1,21 @@
+#!/bin/bash
+# Remeber to use: https://www.shellcheck.net
+set -euo pipefail
+IFS=$'\n\t'
+
+# Debug?
+#set -x
+
+# check for dependencies
+jq --version >/dev/null 2>&1 || { echo >&2 "I require 'jq' but it's not installed. Aborting."; exit 1; }
+
+# get name from request
+name=$(echo "$REQUEST" | jq -r ".params.name") 
+
+# error handling if no parameters are given
+if [ "$name" == "null" ]; then
+  name="World"
+fi
+
+# output
+echo -e "Hello, $name!\nThis is Bash!"

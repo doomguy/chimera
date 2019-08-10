@@ -1,0 +1,25 @@
+# General dependencies
+gem install sinatra
+gem install thin
+
+# Bash Support
+apt install jq
+
+# Go Support
+See registry/helloGo/README.md
+
+# Lua Support
+See registry/helloLua/README.md
+
+# PHP Support
+Install PHP Interpreter
+
+# Perl Support
+See registry/helloPerl/README.md
+
+# Python Support
+Install Python Interpreter
+
+# Ruby Support
+Just works :)
+See Example
