@@ -25,7 +25,7 @@ Run Chimera:
 ruby chimera.rb
 ```
 
-Interact with the services:
+Interact with it:
 ```
 curl localhost:4567/helloRuby
 Hello, World!
@@ -35,7 +35,7 @@ curl localhost:4567/helloRuby?name=FooBar
 Hello, FooBar!
 This is Ruby!
 
-curl localhost:4567/helloPythono
+curl localhost:4567/helloPython
 Hello, World!
 This is Python!
 
@@ -49,10 +49,10 @@ Please note: Some other examples for other languages need some more work to run.
 ### Usage
 For new scripts follow these simple steps:
 1. Create a new folder under `registry` (CamelCase recommended).
-2.1 For native ruby code, just have a look at the `helloRuby` example.
-2.2 For non-ruby code, copy the helper.rb into the folder and rename it to the folder name. By default GET and POST is supported.
-3. Put your binary/script with the name `main` into the folder. Make it executable (`chmod +x main`)!
-4. (Re)Start Chimera
+2. For native ruby code, just have a look at the `helloRuby` example.
+3. For non-ruby code, copy the helper.rb into the folder and rename it to the folder name. By default GET and POST is supported.
+4. Put your binary/script with the name `main` into the folder. Make it executable (`chmod +x main`)!
+5. (Re)Start Chimera
 
 ## Built With
 * [Sinatra](http://sinatrarb.com/) - The framework used
@@ -61,7 +61,7 @@ For new scripts follow these simple steps:
 Just send in your pull request if you feel like it.
 
 ## Versioning
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/doomguy/chimera/tags).
+[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/doomguy/chimera/tags).
 
 ## Authors
 * **doomguy** - *Initial work* - [doomguy](https://github.com/doomguy)
