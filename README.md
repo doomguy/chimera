@@ -69,7 +69,7 @@ Just send in your pull request if you feel like it.
 See also the list of [contributors](https://github.com/doomguy/chimera/contributors) who participated in this project.
 
 ## License
-This project is licensed under the Unlicense - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Unlicense - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 * Hat tip to anyone whose code was used!
